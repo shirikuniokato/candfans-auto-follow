@@ -12,3 +12,13 @@ chrome web driver
 ```
 pip3 install chromedriver-binary==123.0.6312.2.0
 ```
+
+## 実行方法
+```
+python3 script.py  
+```
+
+```
+フォローするユーザ数を入力してください: [数値を入力] 
+```
+
