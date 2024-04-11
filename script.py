@@ -61,7 +61,7 @@ time.sleep(5)
 driver.find_elements(By.CSS_SELECTOR, ".user-scores .counter")[1].click()
 time.sleep(3)
 
-## 1000人フォローする
+## フォローする
 click_count = 0
 while click_count < target_follow_count:
   buttons = driver.find_elements(By.CSS_SELECTOR, ".user .follow-button")
