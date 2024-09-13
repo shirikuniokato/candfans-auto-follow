@@ -1,4 +1,4 @@
-# candfans-auto-follow
+# myfans-auto-follow-or-remove
 
 ## module
 
@@ -14,11 +14,9 @@ pip3 install chromedriver-binary==123.0.6312.2.0
 ```
 
 ## 実行方法
+1. config.json に必要な情報を入力する（email,password やフォロー数、リムーブ数）
+2. 以下のコマンドでスクリプトを実行する
+
 ```
 python3 script.py  
 ```
-
-```
-フォローするユーザ数を入力してください: [数値を入力] 
-```
-
