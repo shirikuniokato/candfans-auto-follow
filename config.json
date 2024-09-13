@@ -1,0 +1,21 @@
+{
+  "__comment": "myfans の自動[フォロー|リムーブ]に必要な情報",
+  "email": "user@example.com",
+  "password": "hogehoge",
+  "target_ranking_url": "https://myfans.jp/rankings/general_female",
+  "max_follow_limit": 1,
+  "remove_percentage": 10,
+
+  "__comment_target_ranking_url": "ランキング画面のURLを設定します。",
+  "__example_urls": [
+    "https://myfans.jp/rankings/general_female (総合)",
+    "https://myfans.jp/rankings/massage (マッサージ)",
+    "https://myfans.jp/rankings/show_face (顔出し)"
+  ],
+
+  "__comment_max_follow_limit": "新たにフォローする数",
+  "__example_max_follow_limit": ["10人の場合：10", "360人の場合：360"],
+
+  "__comment_remove_percentage": "リムーブ割合（自分のフォロー数を母数とした割合を記載）",
+  "__example_remove_percentage": ["25% の場合：25", "50% の場合：50"]
+}
